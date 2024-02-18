@@ -1,9 +1,10 @@
 import React from "react";
+import { TaskList } from "./components/TaskList";
 
 const QueryApp = () => {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <TaskList />
     </div>
   );
 };
